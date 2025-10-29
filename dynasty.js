@@ -24,7 +24,7 @@ function getSuwayomiLink(instanceUrl) {
         case "doujins":
         case "chapters":
         case "anthologies":
-            return deeplink(pageType, segments.at(-1));
+            return deeplink(pageType, segments.at(1));
         case "recently-added":
             return new URL("/sources/669095474988166464", instanceUrl);
         default:
