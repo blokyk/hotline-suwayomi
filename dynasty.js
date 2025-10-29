@@ -20,6 +20,7 @@ function getSuwayomiLink(instanceUrl) {
     }
 
     switch (pageType) {
+        case "issues":
         case "series":
         case "doujins":
         case "chapters":
@@ -35,6 +36,7 @@ function getSuwayomiLink(instanceUrl) {
 
 function getTitleElement() {
     switch (pageType) {
+        case "issues":
         case "series":
         case "anthologies":
             return document.querySelector("h2.tag-title");

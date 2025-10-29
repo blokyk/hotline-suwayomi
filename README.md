@@ -25,6 +25,7 @@ with the protocol (generally either `http` or `https`).
 ### Sites
 
 1. Dynasty-Scans
+    - Issues
     - Series
     - Doujins
     - Chapters
