@@ -1,8 +1,10 @@
 # Hotline Suwayomi
 
+<a href="https://addons.mozilla.org/en-US/firefox/addon/hotline-suwayomi/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" width="15%" /></a>
+
 This is a [*very* simple](./dynasty.js) add-on/extension, which adds a link on
-pages of manga sites supported by Mihon, allowing you to quickly open them in
-Suwayomi.
+pages of manga sites supported by Mihon/Suwayomi, allowing you to quickly open
+them in Suwayomi.
 
 ![An example screenshot of the link added by this add-on. It's a simple blue
 hyperlink which reads "Open in Suwayomi", placed under the main title of the
