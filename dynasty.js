@@ -14,7 +14,7 @@ function UnsupportedPageType(type) {
 
 function getSuwayomiLink(instanceUrl) {
     function deeplink(type, name) {
-        let url = new URL(`/sources/all/search`, instanceUrl);
+        let url = new URL(`/sources/669095474988166464`, instanceUrl);
         url.searchParams.append("query", `deeplink:${type}:${name}`);
         return url;
     }
