@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Hotline Suwayomi",
-  "version": "0.3",
+  "version": "0.4",
 
   "description": "Open Suwayomi WebUI with a search for the current entry",
   "homepage_url": "https://github.com/blokyk/hotline-suwayomi",
