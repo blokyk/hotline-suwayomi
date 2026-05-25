@@ -26,6 +26,8 @@ stdenvNoCC.mkDerivation (prev: {
     zip --recurse-paths "$dst/${prev.passthru.addonId}.xpi" .
   '';
 
+  preferLocalBuild = true;
+
   passthru.addonId = manifest.browser_specific_settings.gecko.id;
 
   meta = {
